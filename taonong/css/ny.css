@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+.ny_banner{
+    background: url(../images/banner.jpg) center no-repeat;
+    height: 300px;
+}
+.border{
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    background: #fff;
+    padding: 30px 20px;
+}
+.bag7{
+    background: #f7f7f7;
+    padding-bottom: 50px;
+}
+/*上下篇*/
+.Previous{
+    width: 800px;
+    margin: 30px auto 0;
+}
+.Previous ul li{
+    float: left;
+    width: 400px;
+    line-height: 30px;
+}
+.Previous ul li a{
+    color: #009A44;
+}
+.Previous ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/*内页导航*/
+.ny_heard{
+    background: #26af5f;
+}
+.ny_heard ul{
+    text-align: center;
+}
+.ny_heard ul li{
+    display: inline-block;
+}
+.ny_heard ul li a{
+    display: block;
+    line-height: 60px;
+    padding: 0 25px;
+    color: #fff;
+}
+.ny_heard ul li a:hover{
+    background: #f7f7f7;
+    color:#26af5f;
+}
+
+/*公司简介*/
+.nyabout_con p{
+    line-height: 25px;
+}
+
+
+/*产品展示*/
+.nypro{}
+.nypro ul{}
+.nypro ul li{
+    float: left;
+    margin: 0 11px 20px;
+}
+.nypro ul li .nypro_img{
+    overflow: hidden;
+    width: 267px;
+    height: 267px;
+}
+.nypro ul li .nypro_img img{
+    width: 265px;
+    height: 265px;
+    display: block;
+    border:1px solid #eee;    
+    transition:all .5s;
+    -moz-transition:all .5s;    /* Firefox 4 */
+    -webkit-transition:all .5s; /* Safari å’Œ Chrome */
+    -o-transition:all .5s;  /* Opera */
+    transform: scale(1,1);
+    -ms-transform: scale(1,1);  /* IE 9 */
+    -webkit-transform: scale(1,1);  /* Safari å’Œ Chrome */
+    -o-transform: scale(1,1);   /* Opera */
+    -moz-transform: scale(1,1); /* Firefox */
+}
+.nypro ul li .nypro_img a:hover img{
+    transform: scale(1.2, 1.2) rotate(10deg);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;    
+}
+.nypro ul li .nypro_tit{
+    text-align: center;
+    line-height: 30px;
+}
+.nypro ul li .nypro_tit a{
+    color:#666;
+}
+.nypro ul li .nypro_tit a:hover{
+    color:#26af5f;
+}
+
+/*产品详情*/
+.nyprodetail{
+    text-align: center;
+}
+.nyprodetail .nyprodetail_tit{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.nyprodetail .nyprodetail_date{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 20px;
+}
+.nyprodetail .nyprodetail_img{
+    overflow: hidden;
+    width: 100%;
+}
+.nyprodetail .nyprodetail_img img{
+    display: block;
+    max-width: 750px;
+    min-width: 300px;
+    margin:0 auto;
+    border: 1px solid #eee;
+}
+
+
+/*新闻资讯*/
+.nynews{}
+.nynews li{
+    border-bottom: 1px dashed #ccc;
+    height: 135px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.nynews_img{
+    width: 200px;
+    height: 135px;
+}
+.nynews_img img{
+    display: block;
+    width: 200px;
+    height: 135px;
+}
+.nynews_brief{
+    width: 930px;
+}
+.nynews_brief h2 a{
+    font-size: 16px;
+}
+.nynews_brief p{
+    font-size: 12px;
+    line-height: 30px;
+}
+.nynews_brief .nynews_brief_con{
+    line-height: 25px;
+    height: 75px;
+    overflow: hidden;
+}
+
+/*新闻详情*/
+.nynewsdetail{
+    
+}
+.nynewsdetail .nynewsdetail_tit{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.nynewsdetail .nynewsdetail_date{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.nynewsdetail .nynewsdetail_con{
+    line-height: 25px;    
+}

@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/*底部*/
+.footer{
+}
+.footera{
+    background: #26af5f;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.footera_bz{
+    height: 31px;
+    margin-bottom: 30px;
+}
+.footera_bz .fbz{
+    padding-left: 40px;
+    float: left;
+    height: 31px;
+    color:#fff;
+    line-height: 31px;
+    margin-left: 230px;
+}
+.footera_bz .fbz01{
+    background: url(../images/biaozhi01.png) left 0 no-repeat;
+    margin-left: 0!important;
+}
+.footera_bz .fbz02{
+    background: url(../images/biaozhi01.png) left -38px no-repeat;
+}
+.footera_bz .fbz03{
+    background: url(../images/biaozhi01.png) left -78px no-repeat;
+}
+.footera_bz .fbz04{
+    background: url(../images/biaozhi01.png) left -121px no-repeat;
+}
+
+.footera_heard{
+    border-top: 1px solid #33bd6e;
+    padding-top: 5px;
+    display: table;
+    width: 100%;
+}
+.footera_heard dl{
+    float: left;
+    background: url(../images/footerrb.png) top right no-repeat;
+    padding-right: 60px;
+    width: 110px;
+}
+.footera_heard dl dt{
+    color: #fff;
+    font-weight: bold;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.footera_heard dl .fhe01{
+    background: url(../images/biaozhi02.png) left 2px no-repeat;
+}
+.footera_heard dl .fhe02{
+    background: url(../images/biaozhi02.png) left -30px no-repeat;
+}
+.footera_heard dl .fhe03{
+    background: url(../images/biaozhi02.png) left -65px no-repeat;
+}
+.footera_heard dl .fhe04{
+    background: url(../images/biaozhi02.png) left -95px no-repeat;
+}
+.footera_heard dl .fhe05{
+    background: url(../images/biaozhi02.png) left -130px no-repeat;
+}
+.footera_heard dl dd{
+    line-height: 25px;
+    padding-left: 40px;
+}
+.footera_heard dl dd a{
+    color: #def8e9;
+}
+.footera_heard dl dd a:hover{
+    text-decoration:underline;
+}
+.footera_heard .ewm{
+    width: 250px;
+    padding: 50px 0 0 20px;
+}
+.footera_heard .ewm img{
+    width: 100px;
+    display: block;
+}
+.footera_heard .ewm p{
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.footera_heard .ewm .ewm02{
+    margin-left: 50px;
+}
+
+.footerb{
+    background: #444;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    height: 40px;
+    padding: 10px 0;
+}
+.footerb p{
+    line-height: 20px;
+}
+.footerb p a{
+    font-size: 12px;
+    color: #fff;
+}
+.footerb p a:hover{
+    text-decoration: underline;
+}
